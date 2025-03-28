@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ownership_icon__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Ownership__c,
+&apos;Customer&apos;, IMAGE(&apos;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068d2000002wxbF&amp;operationContext=CHATTER&amp;contentId=05Td2000003SvG9&apos;, &apos;customer&apos;, 20, 20),
+&apos;Lutech&apos;, IMAGE(&apos;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068d2000002wwos&amp;operationContext=CHATTER&amp;contentId=05Td2000003Ss3m&apos;, &apos;lutech&apos;, 20, 30),
+&apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ownership</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(StageName,
+&apos;Idea&apos;, &apos;Design&apos;,
+&apos;Evaluation&apos;, &apos;Design&apos;,
+&apos;Approval&apos;, &apos;Design&apos;,
+&apos;Planning&apos;, &apos;Design&apos;,
+&apos;Not Started&apos;, &apos;Implementation&apos;,
+&apos;In Progress&apos;, &apos;Implementation&apos;,
+&apos;Under Review&apos;, &apos;Implementation&apos;,
+&apos;Completed&apos;, &apos;Completed&apos;,
+&apos;On Hold&apos;, &apos;On Hold&apos;,
+&apos;Cancelled&apos;, &apos;Cancelled&apos;,
+&apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Phase</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

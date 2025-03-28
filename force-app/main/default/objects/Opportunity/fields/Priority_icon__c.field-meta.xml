@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_icon__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Priority__c,
+&apos;Critical&apos;, IMAGE(&apos;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068d2000002wwld&amp;operationContext=CHATTER&amp;contentId=05Td2000003SuGr&apos;, &apos;critical&apos;, 20, 20),
+&apos;High&apos;, IMAGE(&apos;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068d2000002wrq5&amp;operationContext=CHATTER&amp;contentId=05Td2000003StSs&apos;, &apos;high&apos;, 20, 20),
+&apos;Medium&apos;, IMAGE(&apos;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068d2000002wy7V&amp;operationContext=CHATTER&amp;contentId=05Td2000003Smos&apos;, &apos;medium&apos;, 20, 20),
+&apos;Low&apos;, IMAGE(&apos;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068d2000002wwnF&amp;operationContext=CHATTER&amp;contentId=05Td2000003SuIT&apos;, &apos;low&apos;, 20, 20),
+&apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priority</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
