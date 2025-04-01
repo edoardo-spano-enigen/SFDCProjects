@@ -17,3 +17,6 @@
 | Completed	| Completed	| Closed/Won	| 100%		| Closed		|
 -----------------------------------------------------------------------------------------
 ```
+
+## Icons
+In 'icons' folder there are icons to upload in Files and use in formula fields.
